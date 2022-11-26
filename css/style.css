@@ -1,3 +1,52 @@
-.subtitle {
+/* * {
+    border: 1px solid red;
+} */
+
+a {
+    text-decoration: none;
+    color: tomato;
+}
+
+a:hover {
+    text-underline-offset: 3px;
+    text-decoration: underline wavy 1px;
+    color: salmon;
+}
+
+body {
+    font-family:  'Helvetica Neue', 'Avenir', 'Optima';
+    color: darkslategray;
+}
+h1, h2, h3, h4 {
+    font-family:  'Avenir', 'Futura';
+    font-weight: 500;
+    color: slategray;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+.portfolio {
+    display: grid;
+    grid-template: auto auto / 2fr 2fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    /* justify-items: center; */
     
+}
+
+.portfolio-section {
+    background-color: rgba(255, 235, 205, 50%);
+    
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.subtitle {
+   font-style: italic; 
 }
