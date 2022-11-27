@@ -5,24 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me | Carina Bauman, PhD</title>
-  <link href = "css/style.css" rel = "stylesheet">
+  <link href = "../css/style.css" rel = "stylesheet">
 </head>
 <body>
   <header>
     <h1>About Me </h1>
   </header>  
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li>About</li>
-      <li><a href = "portfolio.html">Portfolio</a></li>
-    </ul>
+  <nav class = "navbar">
+      <div class = "nav-item"><a href="index.html">Home</a></div>
+      <div class = "nav-item">About</div>
+      <div class = "nav-item"><a href = "portfolio.html">Portfolio</a></div>
+  
   </nav>
   
   <main>
-    <section>
-      <h4>My story</h4>
+    <section class = "about">
+      <div id = "my-story" class = "about-section">
+      <h3>My story</h3>
     
     <p>
       I'm Carina, and I never thought I'd be a software developer.
@@ -39,9 +39,9 @@
     <p>
       Which brings us back to the present: In 2022, I became a student at <a href="http://www.adadevelopersacademy.org">Ada Developers Academy</a> in Seattle and officially promoted my long-time hobby to a full-time occupation. If my adolescent self could see me now, would she be surprised? Perhaps not. She'd probably be sad about Geocities, though.
     </p>
-    </section>
-    <section>
-      <h4>Trivia</h4>
+    </div>
+    <div class = "about-section">
+      <h3>Trivia</h3>
     <p>
       My other passions include books, cats, and crossword puzzles.
     </p>
@@ -55,13 +55,19 @@
         <li>120.6&deg; Taichung, Taiwan</li>
       </ul>
     </p>
-    </section>
-    <section>
-    <h4>Connect with me</h4>
-      <a href = "mailto:checarina@gmail.com">checarina@gmail.com</a> |
-      <a href = "http://www.linkedin.com/carina-bauman/">LinkedIn</a> |
+    </div>
+    <div class = "about-section center-text">
+    <h3>Connect with me</h3>
+    <p>
+      <a href = "mailto:checarina@gmail.com">checarina@gmail.com</a> 
+    </p>
+    <p>
+      <a href = "http://www.linkedin.com/carina-bauman/">LinkedIn</a>
+    </p>
+    <p>
       <a href = "http://www.github.com/checarina/">Github </a>
-    
+    </p>
+    </div>
 </section>
   </main>
   

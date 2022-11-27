@@ -13,16 +13,70 @@ a:hover {
     color: salmon;
 }
 
+.about {
+    display: grid;
+    grid-template: auto auto / 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    /* justify-items: center; */
+    
+}
+
+.about-section {
+    background-color: rgba(255, 235, 205, 50%);
+    
+    padding: 10px;
+    
+}
+
 body {
     font-family:  'Helvetica Neue', 'Avenir', 'Optima';
     color: darkslategray;
 }
+
+figcaption {
+    font-family: 'Avenir Next Condensed', sans-serif;
+    font-size: 85%;
+    color: slategray;
+    font-style: italic;
+    text-align: center;
+}
+
+/* figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+footer {
+    padding: 5%;
+    font-family: 'Avenir', 'Arial Narrow', sans-serif;
+    font-size: 85%;
+    color: slategray;
+    opacity: 75%;
+    text-align: center;
+}
+
 h1, h2, h3, h4 {
     font-family:  'Avenir', 'Futura';
     font-weight: 500;
     color: slategray;
     text-align: center;
 }
+
+#my-story {
+    grid-column: span 2;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+   
+}
+
 .navbar {
     display: flex;
     flex-flow: row wrap;
@@ -33,7 +87,7 @@ h1, h2, h3, h4 {
 
 .portfolio {
     display: grid;
-    grid-template: auto auto / 2fr 2fr;
+    grid-template: auto auto / 1fr 1fr;
     column-gap: 10px;
     row-gap: 10px;
     /* justify-items: center; */
@@ -47,6 +101,29 @@ h1, h2, h3, h4 {
     /* border: 1px solid red; */
 }
 
+/* #other {
+    grid-column: 1 / 1 ;
+} */
+
+/* .portfolio-section > p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+} */
+
+.center-text {
+
+    text-align: center;
+}
+
 .subtitle {
+  
    font-style: italic; 
+   font-size: 90%;
+   line-height: 25%;
+   
+}
+
+ul {
+    list-style: circle;
+
 }
